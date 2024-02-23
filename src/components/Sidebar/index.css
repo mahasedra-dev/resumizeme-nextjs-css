@@ -4,6 +4,43 @@
     border-bottom: 1px solid #ddd;
 }
 
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 4px;
+}
+
+.text-bold {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.sidebar-menu-picker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 6px 4px;
+}
+
+.sidebar-history-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-board-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-menu-picker-history {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 4px;
+}
+
 .sidebar-menu {
     padding: 10px;
 }
