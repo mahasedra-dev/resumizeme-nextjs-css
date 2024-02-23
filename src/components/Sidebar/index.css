@@ -1,0 +1,81 @@
+.sidebar-header {
+    padding: 8px 12px;
+    color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-menu {
+    padding: 10px;
+}
+
+.menu-section {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-list li:hover {
+    background-color: #eee;
+}
+
+.starred span,
+.board span,
+.locked span {
+    margin-right: 10px;
+}
+
+.sidebar-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.settings-icon {
+    margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: fixed;
+    }
+
+    .menu-list li {
+        justify-content: space-between;
+    }
+
+    .settings-icon {
+        display: none;
+        /* Hide settings icon on smaller screens */
+    }
+}
