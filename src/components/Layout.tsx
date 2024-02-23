@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import styled from 'styled-components';
-import Sidebar from './Sidebar/Sidebar';
+import Sidebar from './Sidebar';
 const Layout: React.FC<any> = ({ children }) => {
   const [isDesktop, setIsDesktop] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
