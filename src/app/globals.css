@@ -135,6 +135,7 @@ a {
 
 .menu-button {
   display: none;
+  width: 32px;
   background-color: transparent;
 }
 
