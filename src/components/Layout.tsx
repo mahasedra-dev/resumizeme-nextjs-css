@@ -46,7 +46,7 @@ const Layout: React.FC<any> = ({ children }) => {
             </button>
           )}
         </header>
-        <main>
+        <main className='main'>
           {children}
         </main>
       </div>

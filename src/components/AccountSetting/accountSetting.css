@@ -1,0 +1,42 @@
+.premium-account-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 13px;
+    background-color: #008B5D;
+}
+
+.premium-account-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.career-account-container {
+    display: flex;
+    flex-direction: row;
+    min-width: 48px;
+    height: 48px;
+    gap: 12px;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.premium-account-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.premium-account-content-text h1 {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 24px;
+}

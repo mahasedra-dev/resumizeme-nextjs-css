@@ -130,7 +130,11 @@ a {
 }
 
 .content {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+  padding: 32px;
 }
 
 .menu-button {
@@ -161,4 +165,12 @@ a {
   height: 3px;
   background-color: #ddd;
   margin: 4px 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 32px;
+  min-height: 100vh;
 }
