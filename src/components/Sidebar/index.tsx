@@ -59,7 +59,7 @@ const Sidebar: React.FC = () => {
                         </div>
                         <div className="sidebar-menu-picker-history">
                             <img src="images/clock.svg" />
-                            <span>Computers and information...</span>
+                            <span>Computers and information broken word</span>
                         </div>
                         <div className="sidebar-menu-picker-history">
                             <img src="images/clock.svg" />

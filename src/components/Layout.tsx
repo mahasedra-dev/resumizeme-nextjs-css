@@ -39,11 +39,13 @@ const Layout: React.FC<any> = ({ children }) => {
       <div className="content">
         <header>
           {!isDesktop && (
-            <button className="menu-button" onClick={toggleSidebar}>
-              <div className="bar"></div>
-              <div className="bar"></div>
-              <div className="bar"></div>
-            </button>
+            <div>
+              <button className="menu-button" onClick={toggleSidebar}>
+                <div className="bar"></div>
+                <div className="bar"></div>
+                <div className="bar"></div>
+              </button>
+            </div>
           )}
         </header>
         <main className='main'>

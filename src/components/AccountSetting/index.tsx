@@ -19,13 +19,44 @@ const AccountSetting: React.FC = () => {
                 <h2>Personal Information</h2>
                 <div className='personnal-information-content'>
                     <div className='form-group-container'>
-                        <div className='personnal-information-content-left'>
-                            <p>First Name</p>
-                            <input type='text' placeholder='John' />
+                        <div className='grid-container'>
+                            <div className='form-group'>
+                                <label>First Name</label>
+                                <input type='text' placeholder='Petter' />
+                            </div>
+                            <div className='form-group'>
+                                <label>Last Name</label>
+                                <input type='text' placeholder='Cetera' />
+                            </div>
                         </div>
-                        <div className='personnal-information-content-right'>
-                            <p>Last Name</p>
-                            <input type='text' placeholder='Doe' />
+                        <div className='grid-container'>
+                            <div className='form-group'>
+                                <label>City</label>
+                                <input type='text' placeholder='London' />
+                            </div>
+                            <div className='form-group'>
+                                <label>Postal code</label>
+                                <input type='text' placeholder='E2 4XF' />
+                            </div> 
+                        </div>
+                        <div className='form-group'>
+                            <label>Address</label>
+                            <input type='text' placeholder='Address' />
+                        </div>
+                        <div className='grid-container'>
+                            <div className='form-group'>
+                                <label>Email</label>
+                                <input type='text' placeholder='petter@gmail.com' defaultValue={'petter@gmail.com'} />
+                                <img src='/images/substract.svg' alt='substract' />
+                            </div>
+                            <div className='form-group'>
+                                <label>Phone</label>
+                                <input type='text' placeholder='+442223334444' defaultValue={'+442223334444'} />
+                            </div>
+                            <div className='form-group'>
+                                <label>Password</label>
+                                <input type='text' placeholder='Password' />
+                            </div>
                         </div>
                         <p>Use this email to log in to your <a>resumedone.io</a> a account and receive notifications.</p>
                     </div>

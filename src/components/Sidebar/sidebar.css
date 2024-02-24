@@ -23,6 +23,12 @@
     padding: 6px 4px;
 }
 
+.sidebar-menu-picker span, .sidebar-menu-picker-history span {
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
 .sidebar-history-container {
     display: flex;
     flex-direction: column;

@@ -3,7 +3,8 @@ import './footer.css'
 const Footer: React.FC = () => {
     return (
         <footer className='footer'>
-            <p><a>Get in touch with our support team</a> if you have any question or want to leave some feedback. We’ll be happy to hear from you.</p>
+            <p><a>Get in touch with our support team</a> if you have any question or want to leave some feedback. <br/>
+            We’ll be happy to hear from you.</p>
             <div className='menu-container'>
                 <div className='menu'>
                     Terms & Conditions
